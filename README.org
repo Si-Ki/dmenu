@@ -1,1 +1,1 @@
-dmenu-distro + password patch
+dmenu-distrotube + password patch
