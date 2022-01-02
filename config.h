@@ -13,7 +13,7 @@ static int min_width = 400;  /* minimum width when centered */
 static int fuzzy = 1;        /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"SourceCodePro-Medium:pixelsize=11:antialias=true:autohint=true",
+	"JetBrainsMono-Medium:pixelsize=10:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
 	"fa-regular-400:pixelsize=12:anitalias=true:autohint=true",
 	"fa-brands-400:pixelsize=12:anitalias=true:autohint=true",
