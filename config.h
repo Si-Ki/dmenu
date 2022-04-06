@@ -13,14 +13,10 @@ static int min_width = 350;  /* minimum width when centered */
 static int fuzzy = 1;        /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrainsMono-Medium:pixelsize=10:antialias=true:autohint=true",
-	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
-	"fa-regular-400:pixelsize=12:anitalias=true:autohint=true",
-	"fa-brands-400:pixelsize=12:anitalias=true:autohint=true",
-	"fa-solid-900:pixelsize=12:anitalias=true:autohint=true"
+"JetBrainsMono:pixelsize=12:antialias=true:autohint=true", "NotoColorEmoji:pixelsize=14:anitalias=true:autohint=true", "Font Awesome 6 Free:pixelsize=13:anitalias=true:autohint=true", "Font Awesome 6 Brands:pixelsize=15:antialias=true:autohint=true"
 };
-static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
+static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 /*
  * SELECT YOUR COLOR SCHEME
  * Available themes are:
@@ -34,11 +30,11 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
  * 8. solarized-light.h
  * 9. tomorrow-night.h
  */
-#include "colors/tomorrow-night.h"
+#include "colors/generic.h"
 
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 0;
-static unsigned int lineheight = 22;  /* -h option; minimum height of a menu line */
+static unsigned int lineheight = 19;  /* -h option; minimum height of a menu line */
 static unsigned int columns    = 0;
 
 /*
